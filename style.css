@@ -1,0 +1,52 @@
+body {
+	background: LightCoral;
+	font-family: Georgia;
+	max-width: 600px;
+	margin: 0 auto;
+	color:DarkRed;
+}
+h1{
+	text-align: center;
+	font-size: 75px;
+	color:DarkRed;
+}
+h3{
+	text-align: center;
+	font-size: 30px;
+	color:FireBrick;
+}
+div{
+	height: 500px;
+	background-size: cover;
+	position: relative;
+	border-radius: 30px;
+	margin: 40px 0 0 0;
+}
+.first{
+	background-image:url("img/img1.jpg");
+	height: 600px;
+}
+.second{
+	background-image:url("img/img2.jpg");
+	height: 600px;
+}
+.third{
+	background-image:url("img/img3.jpg");
+	height: 600px;
+}
+p{
+	color: DarkRed;
+	background: rgba(255,255,255,0.7);
+	position: absolute;
+	padding: 5px;
+	text-align: justify;
+	line-height: 18px;
+	height: 50;
+	bottom: 0;
+	margin: 0;
+	width: 98.4%;
+}
+.price {
+	float: right;
+}
+
